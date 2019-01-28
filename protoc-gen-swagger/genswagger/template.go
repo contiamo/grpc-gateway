@@ -857,7 +857,12 @@ func renderServices(services []*descriptor.Service, paths swaggerPathsObject, re
 					operationObject.ExternalDocs = protoExternalDocumentationToSwaggerExternalDocumentation(opts.ExternalDocs)
 					// TODO(ivucica): this would be better supported by looking whether the method is deprecated in the proto file
 					operationObject.Deprecated = opts.Deprecated
-
+					if opts.OperationId != "" {
+						operationObject.OperationID = opts.OperationId
+						if bIdx > 0 {
+							operationObject.OperationID = fmt.Sprintf("%s%d", opts.OperationId, bIdx+1)
+						}
+					}
 					if opts.Summary != "" {
 						operationObject.Summary = opts.Summary
 					}
