@@ -55,7 +55,7 @@ func (x NumericEnum) String() string {
 	return proto.EnumName(NumericEnum_name, int32(x))
 }
 func (NumericEnum) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_a_bit_of_everything_74470c9779693dcd, []int{0}
+	return fileDescriptor_a_bit_of_everything_a1c3c91c07aaad98, []int{0}
 }
 
 // DeepEnum is one or zero.
@@ -81,7 +81,7 @@ func (x ABitOfEverything_Nested_DeepEnum) String() string {
 	return proto.EnumName(ABitOfEverything_Nested_DeepEnum_name, int32(x))
 }
 func (ABitOfEverything_Nested_DeepEnum) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_a_bit_of_everything_74470c9779693dcd, []int{0, 0, 0}
+	return fileDescriptor_a_bit_of_everything_a1c3c91c07aaad98, []int{0, 0, 0}
 }
 
 // Intentionaly complicated message type to cover many features of Protobuf.
@@ -129,7 +129,7 @@ func (m *ABitOfEverything) Reset()         { *m = ABitOfEverything{} }
 func (m *ABitOfEverything) String() string { return proto.CompactTextString(m) }
 func (*ABitOfEverything) ProtoMessage()    {}
 func (*ABitOfEverything) Descriptor() ([]byte, []int) {
-	return fileDescriptor_a_bit_of_everything_74470c9779693dcd, []int{0}
+	return fileDescriptor_a_bit_of_everything_a1c3c91c07aaad98, []int{0}
 }
 func (m *ABitOfEverything) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ABitOfEverything.Unmarshal(m, b)
@@ -467,7 +467,7 @@ func (m *ABitOfEverything_Nested) Reset()         { *m = ABitOfEverything_Nested
 func (m *ABitOfEverything_Nested) String() string { return proto.CompactTextString(m) }
 func (*ABitOfEverything_Nested) ProtoMessage()    {}
 func (*ABitOfEverything_Nested) Descriptor() ([]byte, []int) {
-	return fileDescriptor_a_bit_of_everything_74470c9779693dcd, []int{0, 0}
+	return fileDescriptor_a_bit_of_everything_a1c3c91c07aaad98, []int{0, 0}
 }
 func (m *ABitOfEverything_Nested) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ABitOfEverything_Nested.Unmarshal(m, b)
@@ -536,7 +536,7 @@ func (m *ABitOfEverythingRepeated) Reset()         { *m = ABitOfEverythingRepeat
 func (m *ABitOfEverythingRepeated) String() string { return proto.CompactTextString(m) }
 func (*ABitOfEverythingRepeated) ProtoMessage()    {}
 func (*ABitOfEverythingRepeated) Descriptor() ([]byte, []int) {
-	return fileDescriptor_a_bit_of_everything_74470c9779693dcd, []int{1}
+	return fileDescriptor_a_bit_of_everything_a1c3c91c07aaad98, []int{1}
 }
 func (m *ABitOfEverythingRepeated) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ABitOfEverythingRepeated.Unmarshal(m, b)
@@ -679,7 +679,7 @@ func (m *Body) Reset()         { *m = Body{} }
 func (m *Body) String() string { return proto.CompactTextString(m) }
 func (*Body) ProtoMessage()    {}
 func (*Body) Descriptor() ([]byte, []int) {
-	return fileDescriptor_a_bit_of_everything_74470c9779693dcd, []int{2}
+	return fileDescriptor_a_bit_of_everything_a1c3c91c07aaad98, []int{2}
 }
 func (m *Body) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Body.Unmarshal(m, b)
@@ -718,7 +718,7 @@ func (m *MessageWithBody) Reset()         { *m = MessageWithBody{} }
 func (m *MessageWithBody) String() string { return proto.CompactTextString(m) }
 func (*MessageWithBody) ProtoMessage()    {}
 func (*MessageWithBody) Descriptor() ([]byte, []int) {
-	return fileDescriptor_a_bit_of_everything_74470c9779693dcd, []int{3}
+	return fileDescriptor_a_bit_of_everything_a1c3c91c07aaad98, []int{3}
 }
 func (m *MessageWithBody) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_MessageWithBody.Unmarshal(m, b)
@@ -765,7 +765,7 @@ func (m *UpdateV2Request) Reset()         { *m = UpdateV2Request{} }
 func (m *UpdateV2Request) String() string { return proto.CompactTextString(m) }
 func (*UpdateV2Request) ProtoMessage()    {}
 func (*UpdateV2Request) Descriptor() ([]byte, []int) {
-	return fileDescriptor_a_bit_of_everything_74470c9779693dcd, []int{4}
+	return fileDescriptor_a_bit_of_everything_a1c3c91c07aaad98, []int{4}
 }
 func (m *UpdateV2Request) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_UpdateV2Request.Unmarshal(m, b)
@@ -1529,10 +1529,10 @@ var _AnotherServiceWithNoBindings_serviceDesc = grpc.ServiceDesc{
 }
 
 func init() {
-	proto.RegisterFile("examples/proto/examplepb/a_bit_of_everything.proto", fileDescriptor_a_bit_of_everything_74470c9779693dcd)
+	proto.RegisterFile("examples/proto/examplepb/a_bit_of_everything.proto", fileDescriptor_a_bit_of_everything_a1c3c91c07aaad98)
 }
 
-var fileDescriptor_a_bit_of_everything_74470c9779693dcd = []byte{
+var fileDescriptor_a_bit_of_everything_a1c3c91c07aaad98 = []byte{
 	// 3044 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0xbc, 0x39, 0xcb, 0x6f, 0x1b, 0xc7,
 	0xdd, 0x5a, 0xae, 0x9e, 0xa3, 0x17, 0x35, 0xf2, 0x43, 0xa6, 0x95, 0x68, 0xcc, 0x38, 0xc9, 0x5a,
