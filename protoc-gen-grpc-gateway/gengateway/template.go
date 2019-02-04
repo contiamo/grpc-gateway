@@ -8,8 +8,8 @@ import (
 
 	"github.com/golang/glog"
 	generator2 "github.com/golang/protobuf/protoc-gen-go/generator"
-	"github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/descriptor"
-	"github.com/grpc-ecosystem/grpc-gateway/utilities"
+	"github.com/contiamo/grpc-gateway/protoc-gen-grpc-gateway/descriptor"
+	"github.com/contiamo/grpc-gateway/utilities"
 )
 
 type param struct {
@@ -299,8 +299,8 @@ var (
 				return nil, metadata, status.Errorf(codes.InvalidArgument, "%v", err)
 			} else {
 				protoReq.{{.FieldMaskField}} = fieldMask
-			}		
-	} {{end}}		
+			}
+	} {{end}}
 	{{end}}
 {{end}}
 {{if .PathParams}}
